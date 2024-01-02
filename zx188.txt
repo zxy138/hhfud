@@ -9,14 +9,6 @@
       "searchable":1,
       "quickSearch":1,
       "filterable": 1 
-  }
-  {"key":"❤色色资源",
-      "name":"❤色色资源",
-      "type":0,"viewType": 1,
-      "api":"http://secj8.com/inc/sapi.php?ac=videolist",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable": 1
   },
   {"key":"❤白嫖资源",
       "name":"❤白嫖资源",
@@ -45,22 +37,6 @@
 {"category":4,"name":"mediacodec-hevc","value":"0"},
 {"category":1,"name":"dns_cache_timeout","value":"600000000"}
 ]},
-"parses": [
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json并发",
-      "type": 2,
-      "url": "Parallel"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
 {"group":"硬解码","options":[
 {"category":4,"name":"opensles","value":"0"},
 {"category":4,"name":"overlay-format","value":"842225234"},
