@@ -2,9 +2,18 @@
 	"spider":"./pg.jar",
 	"lives": [
 		{
+      "name": "直播（在更新）",
+      "type": 0,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt",
+      "ua": "okhttp/3",
+      "playerType": 2,
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    },
+		{
       "name": "iptv-api",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
       "ua": "okhttp/3",
       "playerType": 2,
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
@@ -13,7 +22,7 @@
     	{
       "name": "api_ipv6",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
       "ua": "okhttp/3",
       "playerType": 2,
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
@@ -22,7 +31,7 @@
     	{
       "name": "api_ipv4",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
       "ua": "okhttp/3",
       "playerType": 2,
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
@@ -173,5 +182,7 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
+    
+ 
   ]}
 	
