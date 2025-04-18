@@ -1,7 +1,34 @@
 	 {
 	"spider":"./pg.jar",
 	"lives": [
-		 {
+		{
+      "name": "iptv-api",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "ua": "okhttp/3",
+      "playerType": 2,
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    },
+    	{
+      "name": "api_ipv6",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+      "ua": "okhttp/3",
+      "playerType": 2,
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    },
+    	{
+      "name": "api_ipv4",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+      "ua": "okhttp/3",
+      "playerType": 2,
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    },
+ {
       "name": "zb1",
       "type": 0,
       "url": "https://git.acwing.com/movie888888/2024tv/-/raw/main/ZB1.txt",
@@ -33,19 +60,7 @@
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
       "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     },
-    
-    {"name":"光歌","type":0,"url":"https://xn--tkh-mf3g9f.v.nxog.top/m//tv/","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png"},
-{"name":"AI直播","type":0,"url":"https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt","epg":"http://cdn.1678520.xyz/epg/?ch={name}&date={date}","logo":"https://live.fanmingming.cn/tv/{name}.png","playerType":2,"timeout":10},
 
-    {
-      "name": "电视家",
-      "type": 0,
-      "url": "http://mdxgh.tpddns.cn:9999/new/mdzb.txt",
-      "ua": "okhttp/3",
-      "playerType": 2,
-      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
-    },
     
     {
       "name": "典藏版",
@@ -57,25 +72,7 @@
       "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     },
     
-  {
-      "name": "①开心live(EXO)",
-      "type": 0,
-      "url": "http://ttkx.cc:55/lib/kx2024.txt",
-      "ua": "okhttp/3",
-      "playerType": 2,
-      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
-    },
-    
-    {
-      "name": "②开心Live(IJK)",
-      "type": 0,
-      "url": "http://ttkx.cc:55/lib/kx2024.txt",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
+
     {
       "name": "③猫TV线路(EXO)",
       "type": 0,
@@ -129,43 +126,7 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-    
-      {
-      "name": "抖音、斗鱼、B站、YY、Afreeca、Youtube",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Live",
-      "playerType": 2,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "广东银河频道",
-      "type": 0,
-      "url": "https://tzdr.com/iptv.txt",
-      "playerType": 2,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "⑪V6明线路",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 2,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "②⑥范明线路",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
-      "playerType": 2,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
+ 
     
     {
       "name": "胡云",
@@ -178,7 +139,7 @@
     },
     
     {
-      "name": "③④16万MV",
+      "name": "16万MV",
       "type": 0,
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
@@ -207,34 +168,6 @@
     {"name": "YourSmile",
       "type": 0,
       "url": "https://ghfast.top/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/live.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },	
-    
-    {
-       "name": "综合1",
-      "type": 0,
-      "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924111/live1.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "综合2",
-      "type": 0,
-      "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924675/live2.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "综合3",
-      "type": 0,
-      "url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
